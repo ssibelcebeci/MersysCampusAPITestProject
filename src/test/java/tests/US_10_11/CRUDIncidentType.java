@@ -1,12 +1,9 @@
 package tests.US_10_11;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
-import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
@@ -15,7 +12,7 @@ public class CRUDIncidentType extends BaseTest {
 
     private String incidentID;
 
-   @Test(priority = 2, description = "Verify incident type search returns valid response with correct structure")
+    @Test(priority = 2, description = "Verify incident type search returns valid response with correct structure")
     public void testSearchIncidentTypes_Success() {
 
         String requestBody = """
@@ -125,8 +122,9 @@ public class CRUDIncidentType extends BaseTest {
                 .statusCode(200);
 
     }
-    @Test(priority = 6,description = "Delete Incident Type")
-    public void deleteIncidentId(){
+
+    @Test(priority = 6, description = "Delete Incident Type")
+    public void deleteIncidentId() {
 
         given()
                 .spec(request)

@@ -83,21 +83,20 @@ public class CRUDEducation extends BaseTest {
     public void addEducationStandardNameNull() {
 
         String body = """
-    {
-      "id": null,
-      "name": null,
-      "description": "asd",
-      "gradeLevelId": "5e909860b0fd8113ea1432b4",
-      "subjectId": "6568e07f5823fc7b2346f5d1",
-      "gradeCategoriesTemplateId": "65bba1cc4e7e60513ec6e748",
-      "gradeCategoryId": "96b4-5c5a",
-      "calculationMode": "MEAN",
-      "numberOfScores": 5,
-      "scoreWeights": [1,1,1,1,1],
-      "parentStandardCalculationStarategy": "TURN_OFF"
-    }
-    """;
-
+                {
+                  "id": null,
+                  "name": null,
+                  "description": "asd",
+                  "gradeLevelId": "5e909860b0fd8113ea1432b4",
+                  "subjectId": "6568e07f5823fc7b2346f5d1",
+                  "gradeCategoriesTemplateId": "65bba1cc4e7e60513ec6e748",
+                  "gradeCategoryId": "96b4-5c5a",
+                  "calculationMode": "MEAN",
+                  "numberOfScores": 5,
+                  "scoreWeights": [1,1,1,1,1],
+                  "parentStandardCalculationStarategy": "TURN_OFF"
+                }
+                """;
         Response response =
                 given()
                         .spec(request)
@@ -109,7 +108,6 @@ public class CRUDEducation extends BaseTest {
                 .log().all()
                 .statusCode(400);
     }
-
 
     @Test(priority = 4, description = "Get list Education")
     public void getEducationStandardId() {
