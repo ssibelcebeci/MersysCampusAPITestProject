@@ -6,7 +6,7 @@ The project validates a campus/school management system by covering authenticati
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 * User Story–driven test design
 * Modular test structure per User Story group
@@ -16,7 +16,7 @@ The project validates a campus/school management system by covering authenticati
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Java**
 * **Rest Assured**
@@ -27,7 +27,7 @@ The project validates a campus/school management system by covering authenticati
 
 ---
 
-## 🌍 Environment
+## Environment
 
 * **Base URL:**
   `https://campus.techno.study`
@@ -39,7 +39,7 @@ All secured endpoints require a valid **Bearer Token** obtained from the login A
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src
