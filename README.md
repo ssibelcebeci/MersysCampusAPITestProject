@@ -1,4 +1,4 @@
-# API Test Automation – Rest Assured (User Story Based)
+# API Test Automation – API (User Story Based)
 
 This repository contains an **API Test Automation project** developed using **Java & Rest Assured**, structured strictly according to **User Stories (US)** and their **Acceptance Criteria**.
 
