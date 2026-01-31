@@ -55,8 +55,7 @@ src
              │   ├── CRUDCity.java
              │   └── ExamManaging.java
              │
-             ├── US_06_07
-             │   └── Students
+             ├── US_6_7
              │       └── AddRemoveStudentGroup.java
              │
              ├── US_10_11
